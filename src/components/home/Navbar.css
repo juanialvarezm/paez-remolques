@@ -47,6 +47,19 @@
     align-items: center;
 }
 
+.flex-socialmedia{
+    display: flex;
+    align-items: center;
+    margin-left: 6vw;
+}
+
+.flex-socialmedia div {
+    color: #fff;
+    margin-right: 10%;
+    background-color: #fff;
+    padding: 9%;
+    border-radius: 5px;
+}
 
 .nav-ul div {
 
@@ -68,7 +81,11 @@
     text-decoration:none ;
 }
 
-.nav-ul div:hover{
+.border-hover{
+    display: flex;
+}
+
+.border-hover div:hover{
     transition: 0.2s ease;
     border-bottom: 1px solid #fff;
     /* background-color: #5a401d; */
@@ -90,4 +107,8 @@
     .nav-ul{
         width: 85%;
     }
+    .flex-socialmedia{
+        display: none;
+    }
+
 }

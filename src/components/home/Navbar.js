@@ -1,6 +1,9 @@
 import React,{useEffect} from 'react'
 import "./Navbar.css"
 import { Link } from 'react-router-dom'
+import instagram from "../../data/instagram.png"
+import twitter from "../../data/twitter.png"
+import facebook from "../../data/facebook.png"
 
 
 
@@ -18,7 +21,8 @@ const Navbar = () => {
             </div>
             <div className='nav-ul'>
 
-                    <div  className='link'>
+            <div className='border-hover'>
+            <div  className='link'>
                     {window.location.pathname == "/contact"?(
                     <a href='/'>Home</a>
 
@@ -54,20 +58,22 @@ const Navbar = () => {
                         <a href='/servicios'>Servicios</a>
                     )}
                 </div>
+
             </div>
-            <div className='flex-socialmedia'>
+
+                <div className='flex-socialmedia'>
                     <div>
-                        <img src=''alt='ig' />
-                        <p>s</p>
+                        <img src={instagram}alt='ig' />
                     </div>
                     <div>
-                        <img src=''alt='ig' />
+                        <img src={twitter}alt='ig' />
                     </div>
                     <div>
-                        <img src=''alt='ig' />
+                        <img src={facebook}alt='ig' />
                     </div>
                 </div>
 
+            </div>
         </nav>
     </div>
   )
