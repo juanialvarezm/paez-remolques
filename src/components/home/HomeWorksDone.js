@@ -3,6 +3,7 @@ import "./HomeWorksDone.css"
 import carcrash from "../../data/carcrash-lp7.jpg"
 import line from "../../data/minus-horizontal-straight-line.png"
 import {motion} from "framer-motion"
+import {Link} from "react-router-dom"
 
 const HomeWorksDone = () => {
   return (
@@ -35,11 +36,13 @@ const HomeWorksDone = () => {
                     <img src="https://scontent.faep14-2.fna.fbcdn.net/v/t1.18169-9/23031432_1578339008908615_6924129277482036042_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeG-w3ZcQ3OdqNgzxigbIx3RJkstPy6mgqImSy0_LqaCosTsIDJwcplKOUva5xWYTO_n7GH3u8sCXUDyYUuG_xqB&_nc_ohc=yQrXeSTliM8AX93o8oT&_nc_ht=scontent.faep14-2.fna&oh=00_AfAP1o8DEyWQOMIX2h-NWWtZgzDwh85wINQaRFKqX3gHgA&oe=65BE3BA1" alt='car'/>
                 </div>
             </div>
-            <div className='btn-hwork'>
-                <button>
-                    See More
-                </button>
-            </div>
+            <Link to={"/trabajos"} className='h-link'>
+                <div className='btn-hwork'>
+                    <button>
+                        Ver Mas
+                    </button>
+                </div>
+            </Link>
         </div>
     </motion.div>
     )

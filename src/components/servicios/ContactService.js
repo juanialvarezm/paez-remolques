@@ -1,5 +1,6 @@
 import React from 'react'
 import "./ServiciosHome.css"
+import { Link } from 'react-router-dom'
 
 const ContactService = () => {
   return (
@@ -9,7 +10,10 @@ const ContactService = () => {
             <p>Somos una empresa que busca la excelencia y disponibilidad siempre</p>
         </div>
         <div className='contact-btn'>
-            <button>Solicita una cotizacion</button>
+        <Link to={"/contact"} className='c-link'>
+          <button>Solicita una cotizacion</button>
+
+        </Link>
         </div>
     </div>
   )

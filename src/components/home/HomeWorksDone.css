@@ -3,8 +3,8 @@
 
     height: 60vw ;
     margin-bottom: 10vw;
-    background-color: #333333;
-    background-color: rgb(12, 12, 59);
+    background-color: #111;
+    background-color: rgb(4, 4, 31);
     color: #fff;
 
 }
@@ -70,16 +70,21 @@
     width: 250px;
     padding: 1%;
     border-radius: 10px;
-    background-color: #080933;
+    background-color: rgb(2, 2, 20);
     color: #fff;
+    font-family: "Roboto",sans-serif;
     border: 1px solid #fff;
 
 }
 
+.h-link{
+    text-decoration: none;
+}
+
 
 .btn-hwork button:hover{
-    background-color: #433f96;
-    transition: background 0.4s ease;
+    background-color: #14114b;
+    transition: background 0.25s ease;
 }
 
 .btn-hwork button{

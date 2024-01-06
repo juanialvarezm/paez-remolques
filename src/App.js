@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
 import NosotrosPage from './pages/NosotrosPage';
 import NuestraformaPage from './pages/NuestraFormaPage';
 import ServiciosPage from './pages/ServiciosPage';
+import NotFound from './pages/NotFound';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path='/nosotros' element={<NosotrosPage/>} />
             <Route path='/trabajos' element={<NuestraformaPage/>} />
             <Route path='/servicios' element={<ServiciosPage/>} />
+            <Route path='/*' element={<NotFound/>} />
         </Routes>
       </div>
     </div>
