@@ -22,7 +22,7 @@
 
 .contactus h4{
     font-size: 34px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     /* font-weight: 600; */
 }
 
@@ -30,7 +30,7 @@
     font-size: 22px ;
     padding-top: 1vw;
     border-bottom: 2px solid blue;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
 }
 
 #spani{
