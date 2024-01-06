@@ -54,8 +54,20 @@ const Navbar = () => {
                         <a href='/servicios'>Servicios</a>
                     )}
                 </div>
-                
             </div>
+            <div className='flex-socialmedia'>
+                    <div>
+                        <img src=''alt='ig' />
+                        <p>s</p>
+                    </div>
+                    <div>
+                        <img src=''alt='ig' />
+                    </div>
+                    <div>
+                        <img src=''alt='ig' />
+                    </div>
+                </div>
+
         </nav>
     </div>
   )

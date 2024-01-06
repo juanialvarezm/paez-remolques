@@ -25,7 +25,7 @@ const ContactHome = () => {
                 <div className='contactus'>
                     <h4>CONTACTANOS</h4>
                     <p><span id='spani'>TELEFONO:</span> 11 5285 5525 </p>
-                    <p><span id='spani email'>MAIL:</span> remolquescaba@gmail.com</p>
+                    <p><span id='spani '>MAIL:</span> remolquescaba@gmail.com</p>
                     <p><span id='spani'>OFICINAS:</span> Scalabrini ortiz y Corrientes</p>            
                 </div>
                 <div className='oursocial-media'>
