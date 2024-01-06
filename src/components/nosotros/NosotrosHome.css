@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nosotros-div{
+    margin-top: 4vw;
+}
+
+.imgg{
+    position: relative;
+}
+
+.imgg img{
+    width: 98.9vw;
+    height: 90vh;
+    object-fit: cover   ;
+    opacity: 0.85;
+    /* position: relative; */
+}
+
+
+.imgg h2{
+    font-size: 48px;
+    font-family: "Russo one", sans-serif;
+    color: #000;
+    position: absolute;
+    top: 15vw;
+    left: 40vw;
+    /* font-family: "Ruso One", sans-serif; */
+}
+
+.arrow{
+    position: absolute;
+    top:34vw ;
+    color: white;
+    left: 48vw;
+    z-index: 99;
+}
+
+.history{
+    margin-top: 6vw;
+    margin-bottom: 3vw;
+}
+
+
+.gridi{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.us{
+    text-align: left;
+    margin-top: 3vw;
+
+}
+
+.us h3{
+    font-size: 40px;
+    font-family: "Russo one", sans-serif;
+    padding-bottom: 1vw;
+}
+
+.us p{
+    width: 80%;
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    /* font-weight: 600; */
+}
+
+
+.totrustcont{
+
+    margin: 12vw 0 12vw 0;
+    padding: 0;
+    /* width: 100vw; */
+    height: 40vh;
+    color: #000;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.totrust h2{
+    text-align: left;
+    width: 90%;
+    font-family: "Russo one", sans-serif;
+    padding-left: 10vw;
+    font-size: 38px;
+}
+
+.totrust p{
+    padding-top: 1%;
+    font-size: 20px;
+    width: 90%;
+    text-align: left;
+    padding-left: 10.2vw;
+}
+
+.img-gridi{
+    grid-gap: 0;
+    /* position: relative; */
+}
+
+.img-gridi img{
+    width: 30vw;
+}
+
+.slide-hidden {
+    display: none;
+  }
+
+
+.slide {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 7px #666;
+    width: 100%;
+    height: 100%;
+}
+  
+
+.relative{
+    position: relative;
+    /* background-color: blue; */
+}
+
+  .arrow {
+    position: absolute;
+    filter: drop-shadow(0px 0px 5px #555);
+    width: 2rem;
+    height: 2rem;
+    color: black;
+  }
+  
+  .arrow:hover {
+    cursor: pointer;
+  }
+  
+  .arrow-left {
+    left: 7vw;
+    top: 8vw;
+}
+  
+  .arrow-right {
+    left: 40vw;
+    top: 8vw;
+  }
+
+
+.img-gridi div img{
+    padding: 0;
+    margin: 0;
+    object-fit: contain;
+    /* height: 150px;
+    width: 300px; */
+}
+
+.dontlie{
+    background-color: #333;
+    height: 88.5vh;
+    color: #fff;
+}
+
+.titu{
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    padding-top: 5vw;
+    padding-bottom: 4vw;
+}
+
+.titu h4{
+    font-size: 30px;
+}
+
+.numbers h1{
+    font-size: 100px;
+}
+
+.numbers{
+    font-family: "Roboto";
+    font-weight: bold;
+    display: flex; 
+    justify-content: center;
+}
+
+.numbers div{
+     padding:7vw ;
+    }
+
+
+@media screen and (max-width:500px){
+    .imgg img{
+        height: 65vh;
+        width: 100%;
+    }
+
+    .imgg h2{
+        font-size: 36px;
+        left: 28%;
+        top: 35%;
+    }
+    .totrustcont{
+        display: block;
+    }
+
+    .history{
+        display: block;
+        text-align: left;
+    }
+    .gridi{
+        display: block;
+        padding-left: 8%;
+        width: 100%;
+    }
+    .img-lugo{
+        display: none;
+    }
+    .totrust h2{
+        font-size: 33px;
+        margin-top: 20%;
+    }
+    .img-gridi{
+        margin-top: 10%;
+    }
+    .relative{
+        width: 100%;
+    }
+    .relative img{
+        width: 70vw;
+    }
+    .arrow-right{
+        left:88% ;
+        top: 20vw;
+    }
+    .arrow-left{
+        left:5% ;
+        top: 20vw;
+    }
+    .numbers{
+        display: grid;
+        grid-template-rows: 33% 33% 33%;
+    }
+    .totrustcont{
+        margin-bottom: 45vw;
+    }
+}
+
+@media  screen and (max-width:400px) {
+    .dontlie{
+        height: 100vh;
+        margin-top: 70vw;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:900px) {
+    .img-lugo{
+        display: none;
+    }
+    .gridi{
+        display: block;
+        margin-left: 6vw;
+    }
+    .totrustcont{
+        display: block;
+    }
+    .totrustcont{
+        margin-bottom: 20vw;
+    }
+    .relative img{
+        width: 60vw;
+    }
+    .arrow-left{
+        top: 17vw;
+        left: 14vw;
+    }
+    .arrow-right{
+        top: 17vw;
+        left: 82vw;
+    }
+    .imgg img{
+        height: 60vh;
+    }
+    .imgg h2{
+        left: 35vw;
+        top: 25vw;
+    }
+    .numbers{
+        display: grid;
+        grid-template-rows: 33% 33% 33%;
+    }
+}
+
+
+@media screen and (min-width:700px) and (max-width:900px) {
+    .imgg img{
+        height: 50vh;
+        width: 100%;
+    }
+}

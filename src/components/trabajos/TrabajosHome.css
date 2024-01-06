@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.workhome{
+    margin-top: 4vw;
+    margin-bottom: 8vw;
+
+}
+
+.workimg{
+    margin-bottom: 8vw;
+}
+
+.workimg img{
+    width: 98.9vw;
+    height: 90vh;
+    opacity: 0.9;
+    position: relative;
+}
+
+.workimg h1{
+    font-size: 50px;
+    position: absolute;
+    top: 20vw;
+    left: 40vw;
+    font-family: "Russo one";
+    color: #000;
+}
+
+
+.collage-cont h2{
+    margin-bottom: 3vw;
+    font-size: 38px;
+}
+
+
+.grido{
+    margin:0 10vw;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    /* grid-template-rows: 25% 25% 25% 25%  ; */
+    column-gap: 0.51vw;
+    row-gap: 0.5vw;
+}
+
+.grido img{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+.cont-container{
+    background-color: #111;
+    /* background-color: rgb(4, 4, 66); */
+    height: 60vh;
+    color: #fff;
+}
+
+.contac-wrapper{
+    display: grid;
+    grid-template-columns: 33% 33% 33%  ;
+    padding-top: 4vw;
+}
+
+.serv-grid{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    width: 100%;
+}
+
+
+.nosotros{
+    text-align: left;
+    font-family: "Roboto";
+}
+
+
+.telephone{
+    display: flex;
+    justify-content: left;
+    padding-top: 1vw;
+}
+
+.telephone img{
+    height: 27px;
+    margin-right: 2vw;
+}
+
+
+.contac{
+    font-family: "Roboto";
+    text-align: left;
+    padding-left: 6vw;
+}
+
+
+@media screen and (max-width:500px){
+    .workimg img{
+        height:40vh;
+    }
+    .workimg h1{
+        font-size: 43px;
+        left: 28%;
+        top: 15%;
+    }
+    .grido{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .grido img{
+        height: 150px;
+        width: 100%;
+    }
+    .contac-wrapper{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .nosotros{
+        display: none;
+    }
+    .email-con{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:700px) and (max-width:900px){
+    .contac-wrapper{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .nosotros{
+        display: none;
+    }
+    .email-con{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:700px) and (max-width:900px){
+    .cont-container{
+        height: 80vh;
+    }
+    .workimg img{
+        height: 50vh;
+    }
+    .grido{
+        width: 80%;
+    }
+    .collage-cont h2{
+        padding-right: 9%;
+    }
+    .workimg h1{
+        left: 35vw;
+        top: 25vw;
+        font-size: 56px;
+    }
+}

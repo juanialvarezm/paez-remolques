@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.popol{
+    position: relative;
+}
+
+
+.img-text{
+    position: absolute;
+    left: 10vw;
+    top: 10vw;
+    padding: 5vw; color: #000
+    /* background-color: blue; */
+}
+
+.img-text h2{
+    /* padding: 1%; */
+    font-size: 50px;
+    /* width: 80%; */
+    text-align: left;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+
+.popol img{
+    position: relative;
+    width: 98.9vw;
+    /* height: 120vh; */
+    /* object-fit: contain; */
+    opacity: 0.9;
+}
+
+.wrapper-1{
+    background:url("https://cdn.buttercms.com/15wcNOHlTzyhIVJyWHvL") ;
+
+    /* width: 100vw; */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+    position: relative;
+}
+
+.wrapper-text {
+    position: absolute;
+    left: 20vw;
+    top: 26vh;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: #352106;
+    padding: 1.3%;
+    border-radius: 4px;
+}
+
+.custom-tag{
+    width: 100vw;
+    height: 85vh;
+}
+
+.contact{
+    background-color: #ebebeb;
+    padding: 5%;
+    border-radius: 15px;
+    /* height: 40vh; */
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    box-shadow: -8px 10px 5px 1px rgba(0,0,0,0.22);
+    -webkit-box-shadow: -8px 10px 5px 1px rgba(0,0,0,0.22);
+    -moz-box-shadow: -8px 10px 5px 1px rgba(0,0,0,0.22);
+
+}
+
+.call{
+    justify-content: center;
+    display: flex;
+    margin-top: 3vw;
+    align-items: center;
+
+}
+
+.call p {
+    font-size: 42px;
+    padding-left: 12vw;
+}
+
+@media screen and (max-width:500px) {
+    .popol img{
+        margin-top: 12vw;
+        height: 30vh;
+    }
+}
